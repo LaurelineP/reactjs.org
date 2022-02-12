@@ -70,8 +70,8 @@ export function APIAnatomy({children}: APIAnatomyProps) {
 
   return (
     <section className="my-8 grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4">
-      <div className="lg:order-2">{code}</div>
-      <div className="lg:order-1 flex flex-col justify-center gap-y-2">
+      <div className="lg:order-1">{code}</div>
+      <div className="lg:order-2 flex flex-col justify-center gap-y-2">
         {steps}
       </div>
     </section>
