@@ -6,6 +6,10 @@ title: render()
 
 `render` renders a piece of [JSX](/learn/writing-markup-with-jsx) ("React node") into a browser DOM node.
 
+```js
+render(reactNode, domNode);
+```
+
 </Intro>
 
 ## On this page {/*on-this-page*/}
